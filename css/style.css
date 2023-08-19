@@ -2,6 +2,8 @@ header {
     background-color: #37140e;
     border-radius: 4px;
     color: aliceblue;
+    max-width: 450px;
+    text-align-last: center;
 }
 
 
@@ -11,12 +13,15 @@ body {
     background-color: #F0BE54;
     
 }
-
-.titulo-destaque {
-    color: #003FB3;
+ 
+.header__main {
+    font-size: 50px;
+    font-family:'Raleway', sans-serif;
+    
 }
 
 .apresentacao {
+    font-family: 'Montserrat', sans-serif;
     margin: 10%;
     display: flex;
     align-items: center;
@@ -32,6 +37,14 @@ body {
     font-size: 36px;
 }
 
+.titulo-destaque {
+    color: #003FB3;
+}
+
 .apresentacao__conteudo__txt {
     font-size: 28px;
+}
+
+.container img {
+    max-width: 400px;
 }
