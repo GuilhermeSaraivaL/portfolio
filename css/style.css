@@ -2,7 +2,6 @@ header {
     background-color: #37140e;
     border-radius: 4px;
     color: aliceblue;
-    font-size: 80px;
 }
 
 
@@ -10,7 +9,6 @@ body {
     height: 100vh;
     box-sizing: border-box;
     background-color: #F0BE54;
-    font-size: 45px;
     
 }
 
@@ -26,3 +24,14 @@ body {
 
 }
 
+.apresentacao__conteudo {
+    width: 615px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+}
+
+.apresentacao__conteudo__txt {
+    font-size: 28px;
+}
