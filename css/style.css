@@ -1,0 +1,28 @@
+header {
+    background-color: #37140e;
+    border-radius: 4px;
+    color: aliceblue;
+    font-size: 80px;
+}
+
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #F0BE54;
+    font-size: 45px;
+    
+}
+
+.titulo-destaque {
+    color: #003FB3;
+}
+
+.apresentacao {
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
