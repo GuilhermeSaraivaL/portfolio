@@ -33,7 +33,7 @@ body {
 }
 
 .apresentacao__conteudo {
-    background-color: #7a5400;
+    background-color: aliceblue;
     border: 8px solid black;
     padding: 10px;
     border-radius: 15px;
@@ -44,10 +44,11 @@ body {
 
 .apresentacao__conteudo__titulo {
     font-size: 36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .titulo-destaque {
-    color: aliceblue;
+    color: #003FB3;
 }
 
 .apresentacao__conteudo__txt {
@@ -60,7 +61,10 @@ body {
 
 .apresentacao__buttons {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 32px;
 }
 
 .apresentacao__buttons__links {
