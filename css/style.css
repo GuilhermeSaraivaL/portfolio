@@ -75,7 +75,10 @@ body {
 }
 
 .apresentacao__buttons__links {
-    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    font-size: 24px;
     font-weight: 600;
     color: black;
     width: 378px;
@@ -85,4 +88,11 @@ body {
     padding: 21.5px 0;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__buttons__links:hover{
+    color: aliceblue;
+    background-color: black;
+    border:4px solid #F0BE54;
+    border-radius: 10px;
 }
