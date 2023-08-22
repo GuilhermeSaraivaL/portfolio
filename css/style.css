@@ -19,7 +19,7 @@ body {
  
 .header__main {
     font-size: 50px;
-    font-family:'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     
 }
 
@@ -45,6 +45,7 @@ body {
 .apresentacao__conteudo__titulo {
     font-size: 36px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
 }
 
 .titulo-destaque {
@@ -65,6 +66,14 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 32px;
+}
+
+.apresentacao__buttons__links__subtitulo {
+    font-family: 'Krona One', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+
+
 }
 
 .apresentacao__buttons__links {
