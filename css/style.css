@@ -1,18 +1,31 @@
-.header__main {
-    font-size: 30px;
-    font-family: 'Raleway', sans-serif;
-    
-}
-
 body {
     /* height: 100vh; */
     box-sizing: border-box;
     background-color: #F0BE54;
     
+} 
+
+.header__main{
+    padding: 2% 0% 0% 8%;
+}
+
+.header__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.header__menu__link {
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: aliceblue;
+    -webkit-text-stroke: 1.5px black;
+    
 }
 
 .apresentacao {
-    padding: 8% 8%;
+    padding: 4% 6.4%;
     display: flex;
     align-items: center;
     justify-content: space-between;
