@@ -1,30 +1,18 @@
-/* header { 
-    background-color: #003FB3;
-    color: white;
-    max-width: 575px;
-    border-radius: 15px;
-    margin-left: 10%;
-    font-weight: 600;
-    text-align-last: center;
-    padding: 20px 0;
-/* } */
-
-
-body {
-    height: 100vh;
-    box-sizing: border-box;
-    background-color: #F0BE54;
-    
-}
- 
 .header__main {
-    font-size: 50px;
+    font-size: 30px;
     font-family: 'Raleway', sans-serif;
     
 }
 
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: #F0BE54;
+    
+}
+
 .apresentacao {
-    margin: 10% 11%;
+    padding: 8% 8%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -100,10 +88,10 @@ body {
 .footer__main{
     background-color: black;
     color: #F0BE54;
+    border-top: 3px solid #003FB3;
     font-size: 30px;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     padding: 10px;
-    border-top: 3px solid #003FB3;
-
 }
+
