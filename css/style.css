@@ -96,3 +96,14 @@ body {
     border:4px solid #F0BE54;
     border-radius: 10px;
 }
+
+.footer__main{
+    background-color: black;
+    color: #F0BE54;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    padding: 10px;
+    border-top: 3px solid #003FB3;
+
+}
