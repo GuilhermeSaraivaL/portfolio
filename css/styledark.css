@@ -1,7 +1,7 @@
 body {
     /* height: 100vh; */
     box-sizing: border-box;
-    background-color: #F0BE54;
+    background-color: black;
 } 
 
 .header__main{
@@ -37,8 +37,8 @@ body {
 }
 
 .apresentacao__conteudo {
-    background-color: aliceblue;
-    border: 8px solid black;
+    background-color: #201b2d;
+    border: 8px solid gray;
     padding: 10px;
     border-radius: 15px;
     display: flex;
@@ -50,15 +50,17 @@ body {
     font-size: 36px;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
+    color: aliceblue;
 }
 
 .titulo-destaque {
-    color: #003FB3;
+    color: #25b1d3;
 }
 
 .apresentacao__conteudo__txt {
     font-family: 'Montserrat', sans-serif;
     font-size: 26px;
+    color: aliceblue;
 }
 
 .container img {
@@ -77,6 +79,7 @@ body {
     font-family: 'Krona One', sans-serif;
     font-size: 24px;
     font-weight: 400;
+    color: aliceblue;
 }
 
 .apresentacao__buttons__links {
@@ -85,10 +88,10 @@ body {
     gap: 16px;
     font-size: 24px;
     font-weight: 600;
-    color: black;
+    color: aliceblue;
     width: 378px;
     text-align: center;
-    border: 4px solid #003FB3;
+    border: 4px solid #25b1d3;
     border-radius: 10px;
     padding: 21.5px 0;
     text-decoration: none;
@@ -96,9 +99,9 @@ body {
 }
 
 .apresentacao__buttons__links:hover{
-    color: aliceblue;
-    background-color: black;
-    border:4px solid #F0BE54;
+    color: #25b1d3;
+    background-color: #1c2227;
+    border:4px solid aliceblue;
     border-radius: 10px;
 }
 
