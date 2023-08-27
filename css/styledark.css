@@ -23,7 +23,7 @@ body {
     font-weight: 900;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
-    color: aliceblue;
+    color: #7105d5;
 }
 
 .apresentacao {
@@ -44,6 +44,16 @@ body {
     gap: 20px;
 }
 
+.apresentacao__conteudo1 {
+    border-left: 8px solid #F0BE54;
+    padding: 10px;
+    border-style: double;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
 .apresentacao__conteudo__titulo {
     font-size: 36px;
     font-family: 'Raleway', sans-serif;
@@ -57,7 +67,8 @@ body {
 
 .apresentacao__conteudo__txt {
     font-family: 'Montserrat', sans-serif;
-    font-size: 26px;
+    font-size: 23px;
+    font-weight: 300;
     color: aliceblue;
 }
 
@@ -106,7 +117,7 @@ body {
 .footer__main{
     background-color: black;
     color: #F0BE54;
-    border-top: 3px solid #003FB3;
+    border-top: 3px solid #7105d5;
     font-size: 30px;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
