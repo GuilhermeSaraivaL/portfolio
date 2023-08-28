@@ -126,6 +126,10 @@ body {
     width: 45%;
 }
 
+.guiperfil{
+    width: 50%;
+}
+
 .footer__main{
     background-color: var(--footer);
     color: var(--apresent--about);
@@ -137,8 +141,26 @@ body {
 }
 
 @media (max-width: 1200px){
+    .header__main{
+        padding: 10%;
+    }
+
+    .header__menu{
+        justify-content: center;
+    }
+
     .apresentacao{
         flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
+    }
+
+    
+    .guiperfil{
+        width: 80%;
     }
 }
 
